@@ -211,3 +211,47 @@ or available locally via: info '(coreutils) ls invocation'
 krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ ls -a
 .  ..  FOLDER_NAME2  a.out  k.c  renamed_copy_test
 krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$
+
+krishna@DESKTOP-MB9E82N:~$ ls
+1104_OS
+krishna@DESKTOP-MB9E82N:~$ cd 1104_OS
+krishna@DESKTOP-MB9E82N:~/1104_OS$ ls
+FOLDER_NAME
+krishna@DESKTOP-MB9E82N:~/1104_OS$ cd FOLDER_NAME
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ ls
+FOLDER_NAME2  a.out  div.c  k.c  mul.c  renamed_copy_test  sub.c
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ gcc sub.c
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ ./a.out
+Enter two numbers : 4
+2
+Subtraction = 2
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ gcc mul.c
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ ./a.out
+Enter two numbers : 2
+2
+Multiplication = 4
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ gcc div.c
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ ./a.out
+Enter two numbers : 4
+2
+Division = 2.00
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ ls
+FOLDER_NAME2  a.out  div.c  k.c  mul.c  renamed_copy_test  sub.c
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ cd FOLDER_NAME2
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME/FOLDER_NAME2$ ls
+testt.text
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME/FOLDER_NAME2$ cat testt.text
+
+hello duniya
+
+hi
+
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME/FOLDER_NAME2$ ls
+testt.text
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME/FOLDER_NAME2$ pwd
+/home/krishna/1104_OS/FOLDER_NAME/FOLDER_NAME2
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME/FOLDER_NAME2$ cd ..
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$  cd..
+cd..: command not found
+krishna@DESKTOP-MB9E82N:~/1104_OS/FOLDER_NAME$ cd ..
+krishna@DESKTOP-MB9E82N:~/1104_OS$
